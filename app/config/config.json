@@ -1,0 +1,22 @@
+{
+	"db": {
+		"username": "myUserAdmin",
+		"password": "abc123",
+		"host": "79.119.187.21",
+		"port": "27017",
+		"name": "chatts"
+	},
+	"sessionSecret": "<RandomString>",
+	"facebook": {
+		"clientID": "1472263963072093",
+		"clientSecret": "65af96bc84083d3704677b673c15943b",
+		"callbackURL": "/auth/facebook/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	},
+	"twitter": {
+		"consumerKey": "YBkAB4tO7lfGv2RweX2IvwZMv",
+		"consumerSecret": "cXJdnbohRRHydbBWzGhXiWWh48vcnALljeSoddXLNs0L4I3ve6",
+		"callbackURL": "/auth/twitter/callback",
+		"profileFields": ["id", "displayName", "photos"]
+	}
+}
