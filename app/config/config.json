@@ -2,7 +2,7 @@
 	"db": {
 		"username": "myUserAdmin",
 		"password": "abc123",
-		"host": "79.119.187.21",
+		"host": "http://chasttsf.azurewebsites.net/",
 		"port": "27017",
 		"name": "chatts"
 	},
