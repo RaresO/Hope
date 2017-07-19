@@ -14,7 +14,7 @@ var passport    = require('./app/auth');
 var ioServer 	= require('./app/socket')(app);
 
 // Set the port number
-var port = 80 ;//process.env.PORT || 3000;
+var port = process.env.PORT//80 ;//process.env.PORT || 3000;
 
 // View engine setup
 app.set('views', path.join(__dirname, 'app/views'));
