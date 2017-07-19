@@ -12,8 +12,8 @@ var dbURI = "mongodb://" +
 			config.db.port + "/" + 
 			config.db.name;
 
-var dbURI2 = "mongodb://chattsf:3dtdCRULukL7U77FAQeedqkgNMbM7SZyOwTYEvKAgaMUbYlvqePyl6UrKaH5Ojrw0j8s5epMYtmEUjmI4KByUg==@chattsf.documents.azure.com:10250/mean-dev?ssl=true&sslverifycertificate=false";
-Mongoose.connect(dbURI);
+var dbURI2 = "mongodb://chatts:3dtdCRULukL7U77FAQeedqkgNMbM7SZyOwTYEvKAgaMUbYlvqePyl6UrKaH5Ojrw0j8s5epMYtmEUjmI4KByUg==@chatts.documents.azure.com:10250/chatts?ssl=true&sslverifycertificate=false";
+Mongoose.connect(dbURI2);
 
 // Throw an error if the connection fails
 Mongoose.connection.on('error', function(err) {
